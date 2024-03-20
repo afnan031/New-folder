@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    top: 30px;
+    left: 580px;
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(179, 183, 183);
+    background-color: rgb(179, 183, 183);
+    /* padding-left: 0px 10px 10px 0px; */
+}
+
+.main {
+    width: 80%;
+    display: inline-block;
+}
+
+.name {
+    text-align: center;
+    text-shadow: 0.5px 0 0px whitesmoke;
+    font-size: 20px;
+
+
+}
+
+.name h3 {
+    margin-top: -25px;
+    margin-bottom: 40px;
+    margin-left: 150px
+}
+
+.heading {
+    text-decoration: underline;
+    background: linear-gradient(gray, rgb(45, 44, 44), gray);
+    border-radius: 10px;
+    color: aliceblue;
+    font-size: 18px;
+    text-decoration-color: black;
+
+}
+
+.objpara {
+    font-size: 18px
+}
+
+.para {
+    font-size: 18px;
+}
+
+.para i {
+    margin-left: -40px;
+
+}
+
+.infopara ul {
+    font-size: 18px
+}
+
+.infopara a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.infopara a:hover {
+    text-decoration: underline;
+    color: rgb(10, 18, 238);
+}
+
+@media only screen and (max-width:1500px) {
+    .container {
+        position: absolute;
+        left: 470px;
+    }
+}
+
+@media only screen and (max-width:1350px) {
+    .container {
+        left: 420px;
+    }
+
+    .heading {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:1220px) {
+    .container {
+        position: absolute;
+        left: 350px;
+    }
+}
+
+@media only screen and (max-width:1080px) {
+    .container {
+        position: absolute;
+        left: 320px;
+    }
+}
+@media only screen and (max-width:989px) {
+    .name h1{
+        font-size: 35px;
+
+    }
+    .name h3{
+        font-size: 23px ;
+    }
+    .heading{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:935px) {
+    .container {
+        position: absolute;
+        left: 270px;
+    }
+    .name h3{
+        margin-left: 120px;
+    }
+}
+
+@media only screen and (max-width:860px){
+    .container{
+        left: 250px ;
+    }
+    .heading{
+        font-size: 12px ;
+    }
+    .name h1{
+        font-size: 25px;
+
+    }
+    .name h3{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width:787px){
+    .container{
+        left: -10px ;
+        width: 100%;
+        /* padding: 10px; */
+        /* margin-right: 80px; */
+    }
+    .main{
+       width:80% ;   
+      }
+}
+@media only screen and (max-width:699px){
+    .container{
+        left: 0px ;
+        width: 100%;
+    }
+    .objpara{
+        font-size: 13px;
+    }
+    .infopara ul{
+        font-size: 13px;
+        padding: 10px;
+    }
+    .para{
+        padding: 14px;
+        font-size: 13px;
+    }
+    .heading{
+        margin-left: -20px;
+    }
+    
+}
