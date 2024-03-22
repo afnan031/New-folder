@@ -5,20 +5,20 @@ body {
 }
 
 .container {
-    position: absolute;
+    position: relative;
     display: flex;
-    top: 30px;
-    left: 580px;
-    width: 40%;
+    /* top: 10px; */
+    /* left: 580px; */
+    width: 80%;
     justify-content: center;
     align-items: center;
     border: 2px solid rgb(179, 183, 183);
     background-color: rgb(179, 183, 183);
-    /* padding-left: 0px 10px 10px 0px; */
+    margin-left: 100px;
 }
 
 .main {
-    width: 80%;
+    width: 90%;
     display: inline-block;
 }
 
@@ -75,36 +75,16 @@ body {
     color: rgb(10, 18, 238);
 }
 
-@media only screen and (max-width:1500px) {
-    .container {
-        position: absolute;
-        left: 470px;
-    }
-}
+
 
 @media only screen and (max-width:1350px) {
-    .container {
-        left: 420px;
-    }
 
     .heading {
         font-size: 16px;
     }
 }
 
-@media only screen and (max-width:1220px) {
-    .container {
-        position: absolute;
-        left: 350px;
-    }
-}
-
-@media only screen and (max-width:1080px) {
-    .container {
-        position: absolute;
-        left: 320px;
-    }
-}
+ 
 @media only screen and (max-width:989px) {
     .name h1{
         font-size: 35px;
@@ -119,19 +99,14 @@ body {
 }
 
 @media only screen and (max-width:935px) {
-    .container {
-        position: absolute;
-        left: 270px;
-    }
+    
     .name h3{
         margin-left: 120px;
     }
 }
 
 @media only screen and (max-width:860px){
-    .container{
-        left: 250px ;
-    }
+   
     .heading{
         font-size: 12px ;
     }
@@ -143,21 +118,15 @@ body {
         font-size: 17px;
     }
 }
-@media only screen and (max-width:787px){
+
+
+@media only screen and (max-width:768px){
     .container{
-        left: -10px ;
+        /* left: 0px ; */
         width: 100%;
-        /* padding: 10px; */
-        /* margin-right: 80px; */
-    }
-    .main{
-       width:80% ;   
-      }
-}
-@media only screen and (max-width:699px){
-    .container{
-        left: 0px ;
-        width: 100%;
+        margin-left: -10px;
+        min-height: 100vh;
+
     }
     .objpara{
         font-size: 13px;
@@ -167,11 +136,11 @@ body {
         padding: 10px;
     }
     .para{
-        padding: 14px;
+        padding-left: 20px;
         font-size: 13px;
     }
     .heading{
-        margin-left: -20px;
+        margin-left: 0px;
     }
     
-}
+} 
